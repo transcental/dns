@@ -16,9 +16,9 @@ zones:
     sources:
       - config
     targets:
-      - dnsimple
+      - cloudflare
   transfemme.dev.:
     sources:
       - config
     targets:
-      - dnsimple
+      - cloudflare
