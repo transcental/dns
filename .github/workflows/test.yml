@@ -1,0 +1,20 @@
+name: test
+
+on: ['push', 'pull_request']
+
+jobs:
+  octodns:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3'
+      - name: Install OctoDNS
+        run: pip install 'octodns==1.10.0 octodns-cloudflare==0.0.7'
+      - name: Do a dry run
+        run: ./bin/dry-run
+        env:
+          CLOUDFLARE_EMAIL: ${{ secrets.CLOUDFLARE_EMAIL }}
+          CLOUDFLARE_TOKEN: ${{ secrets.CLOUDFLARE_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
