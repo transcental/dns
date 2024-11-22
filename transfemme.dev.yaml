@@ -50,4 +50,4 @@ haroon:
 arthur:
   - ttl: 300
     type: CNAME
-    value: averseabfun.github.io
+    value: averseabfun.github.io.
