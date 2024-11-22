@@ -15,7 +15,7 @@ jobs:
         with:
           python-version: '3'
       - name: Install OctoDNS
-        run: pip install 'octodns==1.10.0 octodns-cloudflare==0.0.7'
+        run: pip install 'octodns==1.10.0' 'octodns-cloudflare==0.0.7'
       - name: Sync w/ production DNS providers
         run: ./bin/sync
         env:
