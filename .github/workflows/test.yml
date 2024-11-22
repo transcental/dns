@@ -1,12 +1,17 @@
 name: test
 
-on: ['push', 'pull_request']
+on: 
+  push:
+  pull_request_target:
 
 jobs:
   octodns:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          # Ensures the workflow checks out the base branch, not the PR branch
+          ref: ${{ github.event.pull_request.base.ref }}
       - uses: actions/setup-python@v5
         with:
           python-version: '3'
