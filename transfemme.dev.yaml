@@ -51,3 +51,15 @@ arthur:
   - ttl: 300
     type: CNAME
     value: averseabfun.github.io.
+
+bites:
+  - ttl: 300
+    type: A
+    value: 34.120.54.55
+  - ttl: 300
+    type: AAAA
+    value: "2600:1901:0:6d85::"
+_acme-challenge.bites:
+  - ttl: 300
+    type: CNAME
+    value: 7ffe442bde1786334c8a5628._acme.deno.dev.
