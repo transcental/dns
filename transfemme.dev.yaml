@@ -59,6 +59,7 @@ bites:
   - ttl: 300
     type: AAAA
     value: 2600:1901:0:6d85::
+_acme-challenge.bites:
   - ttl: 300
     type: CNAME
-    value: _acme-challenge.bites.7ffe442bde1786334c8a5628._acme.deno.dev.
+    value: 7ffe442bde1786334c8a5628._acme.deno.dev.
