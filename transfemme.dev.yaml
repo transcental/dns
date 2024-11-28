@@ -51,6 +51,7 @@ arthur:
   - ttl: 300
     type: CNAME
     value: averseabfun.github.io.
+    
 send.arthur:
   - ttl: 300
     type: MX
@@ -59,6 +60,7 @@ send.arthur:
   - ttl: 300
     type: TXT
     value: v=spf1 include:amazonses.com ~all.
+    
 resend._domainkey.arthur:
   - ttl: 300
     type: TXT
