@@ -60,6 +60,10 @@ cassiopeia3000:
   ttl: 300
   type: CNAME
   value: 8a1b1d4c-17a4-415c-88ef-db27653f796e.cfargotunnel.com.
+emojigram:
+  ttl: 300
+  type: CNAME
+  value: cname.vercel-dns.com.
 mail._domainkey:
   octodns:
     cloudflare:
