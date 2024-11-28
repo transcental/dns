@@ -51,19 +51,6 @@ arthur:
   - ttl: 300
     type: CNAME
     value: averseabfun.github.io.
-send.arthur:
-  - ttl: 300
-    type: MX
-    octodns:
-      auto_arpa_priority: 10
-    value: feedback-smtp.us-east-1.amazonses.com.
-  - ttl: 300
-    type: TXT
-    value: v=spf1 include:amazonses.com ~all.
-resend._domainkey.arthur:
-  - ttl: 300
-    type: TXT
-    value: p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDAHwH3HYVmv11rHp3C6ef727/QxAQgnmGs+ENxxy+qipeC5ixhynhd8L9MrgWZyal1K06t8N0Nn9OsKEjvGGOhKNRHOyj1/w7SvjdAUlvZqHwvHhcB4+s3zihJmFPHESI6AILn7jkSwbWiGzenxfTdus05u7ySm0eWkNI3PEsxkwIDAQAB.
 
 bites:
   - ttl: 300
