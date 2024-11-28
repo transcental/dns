@@ -63,3 +63,7 @@ _acme-challenge.bites:
   - ttl: 300
     type: CNAME
     value: 7ffe442bde1786334c8a5628._acme.deno.dev.
+zeon:
+  - ttl: 300
+    type: A
+    value: 167.86.73.55
