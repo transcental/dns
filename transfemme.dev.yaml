@@ -37,7 +37,7 @@ mail._domainkey:
 amber:
   - ttl: 300
     type: CNAME
-    value: personal-website-4vk.pages.dev
+    value: personal-website-4vk.pages.dev.
 rana:
   - ttl: 300
     type: A
