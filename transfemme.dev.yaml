@@ -73,3 +73,23 @@ zeon:
   - ttl: 300
     type: A
     value: 167.86.73.55
+
+srh:
+  - ttl: 86400
+    octodns:
+      cloudflare:
+        auto-ttl: true
+    type: NS
+    value: ns1.digitalocean.com.
+  - ttl: 86400
+    octodns:
+      cloudflare:
+        auto-ttl: true
+    type: NS
+    value: ns2.digitalocean.com.
+  - ttl: 86400
+    octodns:
+      cloudflare:
+        auto-ttl: true
+    type: NS
+    value: ns3.digitalocean.com.
