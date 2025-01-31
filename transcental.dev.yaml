@@ -13,9 +13,9 @@
     ttl: 300
     type: MX
     values:
-    - exchange: aspmx1.migadu.com
+    - exchange: aspmx1.migadu.com.
       preference: 10
-    - exchange: aspmx2.migadu.com
+    - exchange: aspmx2.migadu.com.
       preference: 20
   - octodns:
       cloudflare:
