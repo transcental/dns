@@ -50,21 +50,6 @@ _dmarc:
   ttl: 300
   type: TXT
   value: v=DMARC1\; p=quarantine\;
-_imaps:
-  ttl: 300
-  type: SRV
-  port: 993
-  value: imap.migadu.com
-_pop3s:
-  ttl: 300
-  type: SRV
-  port: 995
-  value: pop.migadu.com
-_submissions:
-  ttl: 300
-  type: SRV
-  port: 465
-  value: smtp.migadu.com
 cassiopeia3000:
   octodns:
     cloudflare:
