@@ -51,7 +51,7 @@ rana:
   - ttl: 300
     type: TXT
     values:
-      - "domain-verification=haroon"
+      - "domain-verification=rana"
 
 arthur:
   - ttl: 300
