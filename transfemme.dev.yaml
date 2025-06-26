@@ -4,36 +4,9 @@
       cloudflare:
         auto-ttl: true
     ttl: 300
-    type: MX
-    values:
-    - exchange: route1.mx.cloudflare.net.
-      preference: 10
-    - exchange: route2.mx.cloudflare.net.
-      preference: 49
-    - exchange: route3.mx.cloudflare.net.
-      preference: 78
-  - octodns:
-      cloudflare:
-        auto-ttl: true
-    ttl: 300
     type: TXT
     values:
-    - brevo-code:060e3d34a75104ead3577c6f8fc6afeb
     - google-site-verification=PMl_YY3RPECpKuCD10y9BOggyNkI0oqMyhQmk_zNI1U
-_dmarc:
-  octodns:
-    cloudflare:
-      auto-ttl: true
-  ttl: 300
-  type: TXT
-  value: v=DMARC1\; p=none\; rua=mailto:5062346d798f42eaab840950a7485afe@dmarc-reports.cloudflare.net,mailto:rua@dmarc.brevo.com,mailto:e7e776f1a8c641409ed243f011b84063@dmarc-reports.cloudflare.net
-mail._domainkey:
-  octodns:
-    cloudflare:
-      auto-ttl: true
-  ttl: 300
-  type: TXT
-  value: v=DKIM1\; k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDeMVIzrCa3T14JsNY0IRv5/2V1/v2itlviLQBwXsa7shBD6TrBkswsFUToPyMRWC9tbR/5ey0nRBH0ZVxp+lsmTxid2Y2z+FApQ6ra2VsXfbJP3HE6wAO0YTVEJt1TmeczhEd2Jiz/fcabIISgXEdSpTYJhb0ct0VJRxcg4c8c7wIDAQAB
 amber:
     octodns:
       cloudflare:
@@ -52,12 +25,10 @@ rana:
     type: TXT
     values:
       - "domain-verification=rana"
-
 arthur:
   - ttl: 300
     type: CNAME
     value: averseabfun.github.io.
-
 bites:
   - ttl: 300
     type: A
