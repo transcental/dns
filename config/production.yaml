@@ -11,11 +11,6 @@ providers:
     delete_pcent_threshold: 1.0
 
 zones:
-  transcental.dev.:
-    sources:
-      - config
-    targets:
-      - cloudflare
   transfemme.dev.:
     sources:
       - config
