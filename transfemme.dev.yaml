@@ -20,7 +20,7 @@ _dmarc:
   - ttl: 300
     type: TXT
     values:
-      - v=DMARC1; p=quarantine;
+      - v=DMARC1\; p=none\; rua=mailto:dmarc@transfemme.dev
 amber:
   - octodns:
       cloudflare:
