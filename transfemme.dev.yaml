@@ -7,8 +7,22 @@
     type: TXT
     values:
     - google-site-verification=PMl_YY3RPECpKuCD10y9BOggyNkI0oqMyhQmk_zNI1U
+    - hosted-email-verify=t977fikb
+    - v=spf1 include:spf.migadu.com -all
+  - ttl: 300
+    type: MX
+    values:
+      - exchange: aspmx1.migadu.com.
+        preference: 10
+      - exchange: aspmx2.migadu.com.
+        preference: 20
+_dmarc:
+  - ttl: 300
+    type: TXT
+    values:
+      - v=DMARC1\; p=none\; rua=mailto:dmarc@transfemme.dev
 amber:
-    octodns:
+  - octodns:
       cloudflare:
         auto-ttl: true
     ttl: 300
@@ -36,6 +50,18 @@ bites:
   - ttl: 300
     type: AAAA
     value: "2600:1901:0:6d85::"
+key1._domainkey:
+  - ttl: 300
+    type: CNAME
+    value: key1.transfemme.dev._domainkey.migadu.com.
+key2._domainkey:
+  - ttl: 300
+    type: CNAME
+    value: key2.transfemme.dev._domainkey.migadu.com.
+key3._domainkey:
+  - ttl: 300
+    type: CNAME
+    value: key3.transfemme.dev._domainkey.migadu.com.
 _acme-challenge.bites:
   - ttl: 300
     type: CNAME
