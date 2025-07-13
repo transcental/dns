@@ -12,12 +12,12 @@
   - ttl: 300
     type: MX
     value:
-      exchange: aspmx1.migadu.com
+      exchange: aspmx1.migadu.com.
       preference: 10
   - ttl: 300
     type: MX
     value:
-      exchange: aspmx2.migadu.com
+      exchange: aspmx2.migadu.com.
       preference: 20
 _dmarc:
   - ttl: 300
