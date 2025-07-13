@@ -9,10 +9,7 @@
     - google-site-verification=PMl_YY3RPECpKuCD10y9BOggyNkI0oqMyhQmk_zNI1U
     - hosted-email-verify=t977fikb
     - v=spf1 include:spf.migadu.com -all
-: - octodons:
-    cloudflare:
-      auto-ttl: true
-    ttl: 300
+  - ttl: 300
     type: MX
     value:
       exchange: aspmx1.migadu.com
