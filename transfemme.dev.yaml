@@ -17,14 +17,11 @@
     value:
       exchange: aspmx1.migadu.com
       preference: 10
-: - octodns:
-  cloudflare:
-    auto-ttl: true
-  ttl: 300
-  type: MX
-  value:
-    exchange: aspmx2.migadu.com
-    preference: 20
+  - ttl: 300
+    type: MX
+    value:
+      exchange: aspmx2.migadu.com
+      preference: 20
 _dmarc:
   - ttl: 300
     type: TXT
