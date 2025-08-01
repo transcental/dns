@@ -28,6 +28,11 @@ amber:
     ttl: 300
     type: CNAME
     value: personal-website-4vk.pages.dev.
+_atproto.rana:
+  - ttl: 300
+    type: TXT
+    values: 
+      - "did=did:plc:zzzqpvu5k2ufzna3gc3ksno4"
 rana:
   - ttl: 300
     type: A
