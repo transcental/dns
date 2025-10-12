@@ -67,6 +67,10 @@ key3._domainkey:
   - ttl: 300
     type: CNAME
     value: key3.transfemme.dev._domainkey.migadu.com.
+mc:
+  - ttl: 300
+    type: A
+    value: 135.181.251.183
 _acme-challenge.bites:
   - ttl: 300
     type: CNAME
