@@ -71,6 +71,10 @@ mc:
   - ttl: 300
     type: A
     value: 135.181.251.183
+eridanus.mc:
+  - ttl: 300
+    type: A
+    value: 135.181.251.183
 _acme-challenge.bites:
   - ttl: 300
     type: CNAME
