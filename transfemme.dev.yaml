@@ -70,7 +70,7 @@ key3._domainkey:
 mc:
   - ttl: 300
     type: A
-    value: 135.181.251.183
+    value: 77.42.69.45
 eridanus.mc:
   - ttl: 300
     type: A
